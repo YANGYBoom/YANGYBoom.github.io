@@ -99,6 +99,10 @@
   background-size: cover;
 }
 
+#randomPost_button {
+  display: none;
+}
+
 /* 导航栏背景修改 */
 /* [data-theme='dark'] #page-header.nav-fixed>#nav,
 [data-theme='dark'] #page-header.not-top-img>#nav {
@@ -137,12 +141,11 @@ hr {
 }
 
 #aside-content>.card-widget.card-info {
-  /* background: #fff url("../img/bg_4.webp") top -24% center no-repeat; */
   background-color: transparent !important;
 }
 
 #aside-content>.card-info:hover {
-  background: url(https://tuchuang.voooe.cn/images/2023/01/02/snow.gif);
+  background: url(../img/snow.gif);
   background-size: cover;
 }
 
@@ -461,7 +464,7 @@ div#category {
   transition: all 0.3s;
 }
 
-#error-wrap .error-content .error-img {
+/* #error-wrap .error-content .error-img {
   box-flex: 1;
   flex: 1;
   height: 100%;
@@ -470,16 +473,16 @@ div#category {
   background-color: #3b70fc;
   background-position: center;
   background-size: cover;
-}
+} */
 
-#error-wrap .error-content .error-info {
+/* #error-wrap .error-content .error-info {
   box-flex: 1;
   flex: 1;
   padding: 0.5rem;
   text-align: center;
   font-size: 14px;
   font-family: Titillium Web, "PingFang SC", "Hiragino Sans GB", "Microsoft JhengHei", "Microsoft YaHei", sans-serif;
-}
+} */
 
 #error-wrap .error-content .error-info .error_title {
   margin-top: -4rem;
