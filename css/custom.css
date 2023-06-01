@@ -107,6 +107,10 @@
   display: none !important;
 }
 
+/* #menu-translate {
+  display: none;
+} */
+
 /* 404页面 */
 #error-wrap {
   margin-top: 13rem;
@@ -117,7 +121,29 @@
   display: none;
 }
 
-@font-face {
+#workboard img.boardsign {
+  display: none;
+}
+
+#footer-wrap #footer_deal .deal_link {
+  display: none;
+}
+
+/* 隐藏相册集里面的关于我 */
+.author-content-item .card-content .banner-button-group {
+  display: none !important;
+}
+
+/* 隐藏工具里面边框和标题 */
+#page h1.page-title {
+  display: none !important;
+}
+
+.layout>div:first-child:not(.recent-posts) {
+  border: none;
+}
+
+/* @font-face {
   font-family: ZhuZiAYuanJWD;
   src: url(https://npm.elemecdn.com/anzhiyu-blog@1.1.6/fonts/ZhuZiAWan.woff2);
   font-display: swap;
@@ -138,7 +164,7 @@ a.blog-slider__title,
 a.categoryBar-list-link,
 h1.post-title {
   font-family: ZhuZiAYuanJWD;
-}
+} */
 
 /* back-menu-list-group */
 
