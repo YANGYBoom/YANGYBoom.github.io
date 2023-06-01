@@ -143,9 +143,13 @@
   border: none;
 }
 
-/* @font-face {
+/* Consolas.woff2 */
+/* MiSans.woff2 */
+/* jf-openhuninn-2.0.woff */
+/* 霞鹜文楷.woff2 */
+@font-face {
   font-family: ZhuZiAYuanJWD;
-  src: url(https://npm.elemecdn.com/anzhiyu-blog@1.1.6/fonts/ZhuZiAWan.woff2);
+  src: url('../font/Consolas.woff2');
   font-display: swap;
   font-weight: lighter;
 }
@@ -164,7 +168,7 @@ a.blog-slider__title,
 a.categoryBar-list-link,
 h1.post-title {
   font-family: ZhuZiAYuanJWD;
-} */
+}
 
 /* back-menu-list-group */
 
