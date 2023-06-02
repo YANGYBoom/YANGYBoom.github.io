@@ -19528,11 +19528,10 @@ svg.icon.faa-tada {
   left: 0;
   top: 0;
 }
-#page:has(#lib-cards):has(#libCategories) #post-comment .tk-comments-container > .tk-comment {
+#page:has(#lib-cards):has(#libCategories) #post-comment .tk-comments-container>.tk-comment {
   border: none;
   box-shadow: none;
 }
-
 .card-glass .card-background {
   box-shadow: none;
   margin: 0 15px;
