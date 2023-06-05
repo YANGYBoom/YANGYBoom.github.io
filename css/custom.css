@@ -225,6 +225,15 @@ blockquote {
   background: transparent !important;
 }
 
+/* 杂七杂八样式修改 */
+[data-theme="dark"] #libCategories .card {
+  background-color: transparent !important;
+}
+
+[data-theme="light"] #libCategories .card {
+  background-color: #000 !important;
+}
+
 /* Consolas.woff2 */
 /* MiSans.woff2 */
 /* jf-openhuninn-2.0.woff */
