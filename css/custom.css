@@ -148,6 +148,19 @@
   border: none;
 }
 
+#article-container h1,
+#article-container h2,
+#article-container h3,
+#article-container h4,
+#article-container h5,
+#article-container h6 {
+  justify-content: flex-end !important;
+}
+
+#article-container .anzhiyu-flink-list .flink-list-item .flink-item-info a {
+  display: none !important;
+}
+
 /* 折叠标签样式修改 */
 details.folding-tag>summary,
 details.folding-tag[open]>summary {
