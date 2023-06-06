@@ -148,6 +148,59 @@
   border: none;
 }
 
+/* 设置cover图片首页显示高度 */
+#recent-posts>.recent-post-item .post_cover {
+  height: 230px !important;
+}
+
+/* 本地搜索左侧隐藏 */
+#local-search .search-dialog .local-search__hit-item .search-left {
+  display: none !important;
+}
+
+#local-search .search-dialog .local-search__hit-item .search-right {
+  width: 100% !important;
+}
+
+#local-search .search-dialog .local-search__hit-item .tag-list {
+  display: none !important;
+}
+
+/* 导航栏顶部文字颜色 */
+[data-theme="light"] #nav a {
+  color: #4c4948;
+}
+
+[data-theme="light"] #page-header:not(.not-top-img) #nav .back-home-button {
+  color: #4c4948;
+}
+
+[data-theme="light"] #post-info .post-title,
+[data-theme="light"] #post-info #post-meta {
+  color: #4c4948 !important;
+}
+
+/* 鼠标样式修改 */
+body {
+  cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/default.cur),
+    default;
+}
+
+a,
+img {
+  cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/pointer.cur),
+    default;
+}
+
+#article-container a.headerlink::before {
+  display: none !important;
+}
+
+/* .flexcard-flink-list>a::before {
+  background-color: transparent !important;
+} */
+
+/* 设置h1~h6标题显示样式 */
 #article-container h1,
 #article-container h2,
 #article-container h3,
