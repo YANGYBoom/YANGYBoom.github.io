@@ -4,13 +4,50 @@
   
     
     <entry>
-      <title>Hello World</title>
-      <link href="/posts/4a17b156.html"/>
-      <url>/posts/4a17b156.html</url>
+      <title>邂逅前端开发</title>
+      <link href="/posts/0.html"/>
+      <url>/posts/0.html</url>
       
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+        <content type="html"><![CDATA[<h2 id="软件是什么"><a href="#软件是什么" class="headerlink" title="软件是什么"></a>软件是什么</h2><ol><li>专业的软件定义：一系列按照特定顺序组织的<strong>计算机数据和指令</strong>，是电脑的<strong>非有型部分</strong>。</li><li>软件开发是什么呢？就是告诉<strong>计算机一系列的指令</strong>，这些指令也称之为<strong>程序</strong>。</li></ol>]]></content>
       
       
+      <categories>
+          
+          <category> HTML </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> HTML </tag>
+            
+            <tag> 前端基础 </tag>
+            
+            <tag> 了解 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>HTML</title>
+      <link href="/posts/1a871436.html"/>
+      <url>/posts/1a871436.html</url>
+      
+        <content type="html"><![CDATA[<style>#post-page {  display: flex;  flex-direction: row;  flex-wrap: wrap;}/* *, *::before, *::after {  box-sizing: border-box;} */@keyframes rotate {  100% {    transform: rotate(1turn);  }}.conic {  position: relative;  z-index: 0;  width: 300px;  height: 300px;  margin: 10px;  border-radius: 10px;  overflow: hidden;  padding: 12px;    &::before {    content: '';    position: absolute;    z-index: -2;    left: -50%;    top: -50%;    width: 200%;    height: 200%;    background-color: #1a232a;    background-repeat: no-repeat;    background-position: 0 0;    background-image: conic-gradient(transparent, rgba(168, 239, 255, 1), transparent 30%);    animation: rotate 4s linear infinite;  }    &::after {    content: '';    position: absolute;    z-index: -1;    left: 6px;    top: 6px;    width: calc(100% - 12px);    height: calc(100% - 12px);    background: #000;    border-radius: 5px;  }}.conic a {  padding: 0!important;  width: 100%!important;}@keyframes opacityChange {  50% {    opacity:.5;  }  100% {    opacity: 1;  }}</style><div id="post-page">  <div class="conic">    <a href='javascript:void(0);' onClick='pjax.loadUrl("/posts/0.html")'>      <img src="https://cdn.staticaly.com/gh/YANGYBoom/pic_bed@main/blog/image-029.jpg">      <h3 slot="header">邂逅前端开发</h3>      <p slot="content">前端学习之路。</p>    </a>  </div>  <div class="conic"></div>  <div class="conic"></div>  <div class="conic"></div>  <div class="conic"></div></div>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> HTML </tag>
+            
+            <tag> 前端基础 </tag>
+            
+        </tags>
       
     </entry>
     
@@ -34,31 +71,6 @@
         <tags>
             
             <tag> Tag Plugins </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>前端</title>
-      <link href="/posts/f3b98ae9.html"/>
-      <url>/posts/f3b98ae9.html</url>
-      
-        <content type="html"><![CDATA[<style>  #libCategories .card-wrap:hover .card-info:after {    width: 300%;  }</style><link rel="stylesheet" type="text/css" href="https://npm.elemecdn.com/js-heo@1.0.11/3dCard/no3d.css"><div id='libCategories'><div id="lib-cards" class="container"><a href='javascript:void(0);' onClick='pjax.loadUrl("/categories/前端开发/")'><card data-image="https://img02.anzhiy.cn/adminuploads/1/2022/09/05/6315e144528fb.webp"><h1 slot="header">前端</h1><p slot="content">前端学习之路。</p></card></a><a href='javascript:void(0);' onClick='pjax.loadUrl("/categories/大学生涯/")'>  <card data-image="https://img02.anzhiy.cn/adminuploads/1/2022/09/05/6315e1433f197.webp">    <h1 slot="header">大学生活</h1>    <p slot="content">在大学期间发生的一些事儿。</p>  </card></a><a href='javascript:void(0);' onClick='pjax.loadUrl("/categories/生活日常/")'>  <card data-image="https://img02.anzhiy.cn/adminuploads/1/2022/09/05/6315e142a69a9.webp">    <h1 slot="header">生活</h1>    <p slot="content">和好朋友👬们一起经历的有趣事。</p>  </card></a></div></div><script src='https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/vue/2.6.14/vue.min.js' data-pjax></script><script type="text/javascript" src="https://npm.elemecdn.com/anzhiyu-theme-static@1.0.7/no3d/no3d.js" data-pjax></script>]]></content>
-      
-      
-      <categories>
-          
-          <category> 前端开发 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 前端 </tag>
             
         </tags>
       

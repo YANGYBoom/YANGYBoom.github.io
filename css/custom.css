@@ -196,6 +196,17 @@ img {
   display: none !important;
 }
 
+/* post页面链接字体颜色修改 */
+.site-title {
+  color: #515151!important;
+}
+
+[data-theme="light"] #post-firstinfo .meta-firstline a.post-meta-original,
+[data-theme="light"] #post-firstinfo .meta-firstline span.post-meta-categories a.post-meta-categories,
+[data-theme="light"] #post-firstinfo .meta-firstline .article-meta__tags {
+  color: #4c4948 !important;
+}
+
 /* .flexcard-flink-list>a::before {
   background-color: transparent !important;
 } */
