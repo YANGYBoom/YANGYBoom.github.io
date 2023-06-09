@@ -58,33 +58,6 @@
     
     
     <entry>
-      <title>HTML</title>
-      <link href="/posts/1a871436.html"/>
-      <url>/posts/1a871436.html</url>
-      
-        <content type="html"><![CDATA[<style>  </style><div id="post-page"></div><script>  fetch("/json/post.json")  .then(response => response.json())  .then(posts => {    var postArr = posts['前端基础'];    let parent = document.getElementById('post-page');        postArr.forEach(post => {      let container = document.createElement("div");      container.className = "post-container-block";      parent.appendChild(container);      let containerImg = document.createElement("img");      containerImg.style = "margin:0 auto 0;";      containerImg.src = post.pic;      container.appendChild(containerImg);      let containerInner = document.createElement("div");      containerInner.className = "post-inner-block";      container.appendChild(containerInner);      let containerA = document.createElement("a");      containerA.style = "width: 100%;height: 100%; border-bottom:none;padding:0;";      containerA.href = 'javascript:void(0);';      containerA.onclick = function() {        postJump(post.url);      };      containerInner.appendChild(containerA);      let containerRight = document.createElement("div");      containerRight.className = "post-slider-top-right";      containerA.appendChild(containerRight);      let containerContent = document.createElement("div");      containerContent.className = "post-block-content";      container.appendChild(containerContent);      let containerTitle = document.createElement("span");      containerTitle.className = "post-block-title";      containerTitle.innerHTML = `${post.title}`;      containerContent.appendChild(containerTitle);      let containerDescribe = document.createElement("span");      containerDescribe.className = "post-block-describe";      containerDescribe.innerHTML = `${post.describe}`;      containerContent.appendChild(containerDescribe);    });  });  function postJump(jumpUrl) {    pjax.loadUrl(jumpUrl);  }</script>]]></content>
-      
-      
-      <categories>
-          
-          <category> 前端基础 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> HTML </tag>
-            
-            <tag> 前端基础 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Markdown示例</title>
       <link href="/posts/c04f398.html"/>
       <url>/posts/c04f398.html</url>
