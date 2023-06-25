@@ -365,7 +365,7 @@ details.folding-tag>summary:hover {
 /* 霞鹜文楷.woff2 */
 @font-face {
   font-family: ZhuZiAYuanJWD;
-  src: url('../font/霞鹜文楷.woff2');
+  src: url('../font/Consolas.woff2');
   font-display: swap;
   font-weight: lighter;
 }
