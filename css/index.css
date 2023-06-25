@@ -252,6 +252,12 @@ hr:before,
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.anzhiyufont::before {
+  font-family: "anzhiyufont" !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 .cardHover,
 .error404 #error-wrap .error-content,
 #recent-posts > .recent-post-item,
@@ -360,6 +366,7 @@ hr:before,
   animation: scroll-down-effect 1.5s infinite;
 }
 .anzhiyu-spin {
+  display: inline-block;
   -webkit-transform-origin: 50% 50%;
   -moz-transform-origin: 50% 50%;
   -o-transform-origin: 50% 50%;
@@ -2374,7 +2381,7 @@ figure.highlight pre .javascript .function {
 }
 #article-container figure.highlight .gutter pre {
   padding-right: 10px;
-  padding-left: 10px;
+  padding-left: 20px;
   background-color: var(--hlnumber-bg);
   color: var(--hlnumber-color);
   text-align: right;
@@ -16257,15 +16264,19 @@ body[data-type="about"] #web_bg {
 }
 .author-content-item .card-content .banner-button-group .banner-button i,
 .author-content-item .card-content .banner-button-group .banner-button svg {
-  margin-right: 8px;
   font-size: 1rem;
 }
+
+.author-content-item .card-content .banner-button-group .banner-button .banner-button-text {
+  margin-left: 4px;
+}
+
 #about-page .author-content-item .card-content .banner-button-group .banner-button i,
 #about-page .author-content-item .card-content .banner-button-group .banner-button svg {
   font-size: 1.5rem;
   margin-right: 0;
   height: 40px;
-  width: 40px;
+  max-width: 40px;
   display: flex;
   border-radius: 50px;
   align-items: center;

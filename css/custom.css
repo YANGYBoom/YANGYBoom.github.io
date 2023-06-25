@@ -218,7 +218,7 @@
 }
 
 /* 鼠标样式修改 */
-body {
+/* body {
   cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/default.cur),
     default;
 }
@@ -227,7 +227,7 @@ a,
 img {
   cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/pointer.cur),
     default;
-}
+} */
 
 #article-container a.headerlink::before {
   display: none !important;
@@ -334,6 +334,20 @@ details.folding-tag>summary:hover {
   /* border-bottom: none; */
   /* background: transparent !important; */
   border: 1px solid #e3e8f7;
+}
+
+#article-container ol li::before {
+  margin-top: 0.45em !important;
+  font-size: 1em !important;
+  background: transparent!important;
+}
+
+[data-theme="dark"] #article-container ol li::before {
+  color: rgb(255, 255, 255);
+}
+
+[data-theme="light"] #article-container ol li::before {
+  color: #4c4948;
 }
 
 /* 杂七杂八样式修改 */
@@ -688,10 +702,14 @@ div#tag {
 }
 
 #article-container ul > li:not(.tab)::before {
-  top: 0.95em;
+  top: 1.1em;
   width: 0em;
   height: 0em;
 }
+
+/* #article-container ol li::before {
+  top: 2px!important;
+} */
 
 #article-container ul > li:not(.tab) {
   padding: 0.2em 0.2em 0.2em 1em;
