@@ -271,8 +271,8 @@ details.folding-tag>summary:hover {
 
 #article-container .tabs {
   margin: 0 !important;
-  border: none !important;
-  border-radius: 0;
+  /* border: none !important; */
+  /* border-radius: 0; */
   background: transparent !important;
 }
 
@@ -286,9 +286,17 @@ details.folding-tag>summary:hover {
   border: none !important;
 }
 
-#article-container .tabs>.nav-tabs>.tab.active button {
-  background: #323030 !important;
-  border: none !important;
+[data-theme="dark"] #article-container .tabs>.nav-tabs>.tab.active button {
+  /* background: #323030 !important; */
+  /* border: none !important; */
+  background: transparent!important;
+  border-bottom: 2px solid #30343f !important;
+}
+
+[data-theme="light"] #article-container .tabs>.nav-tabs>.tab.active button {
+  color: #3b70fc!important;
+  background: transparent!important;
+  border-bottom: 2px solid #3b70fc !important;
 }
 
 #article-container .tabs>.tab-contents .tab-item-content,
