@@ -287,8 +287,6 @@ details.folding-tag>summary:hover {
 }
 
 [data-theme="dark"] #article-container .tabs>.nav-tabs>.tab.active button {
-  /* background: #323030 !important; */
-  /* border: none !important; */
   background: transparent!important;
   border-bottom: 2px solid #30343f !important;
 }
@@ -330,10 +328,10 @@ details.folding-tag>summary:hover {
   color: #3b70fc !important;
 }
 
-[data-theme="light"] #article-container .tabs>.nav-tabs>.tab.active button {
+/* [data-theme="light"] #article-container .tabs>.nav-tabs>.tab.active button {
   color: white;
   background: #3b70fc !important;
-}
+} */
 
 [data-theme="light"] blockquote {
   /* border-left: 3px solid #3b70fc; */
