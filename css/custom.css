@@ -162,6 +162,11 @@
   margin-top: 13rem;
 }
 
+/* 搜索栏字体颜色 */
+[data-theme=light] .search-dialog .search-nav .search-dialog-title {
+  color: var(--font-color);
+}
+
 /* 隐藏 nav 顶栏左侧应用列表第二栏 */
 .back-menu-list-groups .back-menu-list-group:nth-child(2) {
   display: none;
