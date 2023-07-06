@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>认识CSS</title>
+      <link href="/posts/babe7091.html"/>
+      <url>/posts/babe7091.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="认识-CSS"><a href="#认识-CSS" class="headerlink" title="认识 CSS"></a>认识 CSS</h2><p>CSS 表示层叠样式表（简称：CSS，又称为<strong>串样式列表</strong>、<strong>级联样式表</strong>、<strong>串接样式表</strong>、<strong>阶层式样式表</strong>）,是为网页添加<font color=red>样式的代码</font></p><p>MDN 解释：CSS 也不是真正的编程语言，甚至不是标记语言。它是一门样式表语言</p><p>维基百科解释：是一种计算机语言，但是不算是一种编程语言</p><p>CSS 的出现是<strong>为了美化 HTML</strong>的，并且让<strong>结构（HTML）与样式（CSS）分离</strong></p><h2 id="编写-CSS-样式"><a href="#编写-CSS-样式" class="headerlink" title="编写 CSS 样式"></a>编写 CSS 样式</h2><p><font size=3>语法规则</font></p><p><img src="https://cdn.staticaly.com/gh/YANGYBoom/pic_bed@main/blog/image-019.png" alt="image-019"></p><p><font color=red size=3>属性名</font>：要添加的 CSS 规则的名称</p><p><font color=red size=3>属性值</font>：要添加的 CSS 规则的值</p><h2 id="CSS-样式应用"><a href="#CSS-样式应用" class="headerlink" title="CSS 样式应用"></a>CSS 样式应用</h2><p>CSS 提供了 3 种方法：<font color=red>内联</font>样式、<font color=red>内部</font>样式表、<font color=red>外部</font>样式表</p><h3 id="内联样式"><a href="#内联样式" class="headerlink" title="内联样式"></a>内联样式</h3><p>内联样式表存在于<font color=red>HTML 元素的 style 属性</font>之中</p><p>CSS 样式之间用分号<font color=red>;</font>隔开，建议每条 CSS 样式后面都加上分号<font color=red>;</font></p><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&lt;<span class="selector-tag">div</span> style=&quot;<span class="attribute">color</span>: red;<span class="attribute">font-size</span>: <span class="number">30px</span>;&quot;&gt;我是<span class="selector-tag">div</span>元素&lt;/<span class="selector-tag">div</span>&gt;</span><br><span class="line">&lt;<span class="selector-tag">h1</span> style=&quot;<span class="attribute">font-size</span>: <span class="number">100px</span>;&quot;&gt;我是标题&lt;/<span class="selector-tag">h1</span>&gt;</span><br></pre></td></tr></table></figure><h3 id="内部样式表"><a href="#内部样式表" class="headerlink" title="内部样式表"></a>内部样式表</h3><p>将 CSS 放在 HTML 文件<font color=red><head>元素里的<style></font>元素之中</p><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&lt;style&gt;</span><br><span class="line">   <span class="selector-class">.box</span> &#123;</span><br><span class="line">     <span class="attribute">color</span>: red;</span><br><span class="line">     <span class="attribute">font-size</span>: <span class="number">16px</span>;</span><br><span class="line">   &#125;</span><br><span class="line">&lt;/style&gt;</span><br></pre></td></tr></table></figure><h3 id="外部样式表"><a href="#外部样式表" class="headerlink" title="外部样式表"></a>外部样式表</h3><p><strong>外部样式表</strong>是将 CSS 编写在一个独立的文件中，并且<font color=red>通过<link>元素</font>引入进来</p><p><font color=red>第一步：</font>将 css 样式在一个独立的 css 文件中编写(后缀名为.css)</p><p><font color=red>第二步：</font>通过<code>&lt;link&gt;</code>元素引入进来</p><p><img src="https://cdn.staticaly.com/gh/YANGYBoom/pic_bed@main/blog/image-022.png" alt="image-022"></p><h3 id="import"><a href="#import" class="headerlink" title="@import"></a>@import</h3><p>可以在 style 元素或者 CSS 文件中使用@import 导入其他的 CSS 文件</p><p><img src="https://cdn.staticaly.com/gh/YANGYBoom/pic_bed@main/blog/image-023.png" alt="image-023"></p><h2 id="CSS-属性官方文档"><a href="#CSS-属性官方文档" class="headerlink" title="CSS 属性官方文档"></a>CSS 属性官方文档</h2><p><a href="https://www.w3.org/TR/?tag=css">CSS 官方文档地址</a></p><p>[CSS 推荐文档地址](<a href="https://developer.mozilla.org/zh-">https://developer.mozilla.org/zh-</a><br>CN&#x2F;docs&#x2F;Web&#x2F;CSS&#x2F;Reference#%E5%85%B3%E9%94%AE%E5%AD%97%E7%B4%A2%E5%BC%95)</p><p><a href="https://caniuse.com/">查询 CSS 属性可用性</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> CSS </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> CSS </tag>
+            
+            <tag> 了解 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>额外补充</title>
       <link href="/posts/58f95e06.html"/>
       <url>/posts/58f95e06.html</url>
@@ -20,9 +47,9 @@
       
         <tags>
             
-            <tag> HTML </tag>
-            
             <tag> 了解 </tag>
+            
+            <tag> HTML </tag>
             
         </tags>
       
@@ -47,9 +74,9 @@
       
         <tags>
             
-            <tag> HTML </tag>
-            
             <tag> 了解 </tag>
+            
+            <tag> HTML </tag>
             
         </tags>
       
@@ -74,9 +101,9 @@
       
         <tags>
             
-            <tag> HTML </tag>
-            
             <tag> 了解 </tag>
+            
+            <tag> HTML </tag>
             
         </tags>
       
